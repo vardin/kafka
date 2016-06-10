@@ -32,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>kafka.supercom</mainClass>
+                            <mainClass>kafka.kafka_application</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
