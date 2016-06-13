@@ -7,13 +7,18 @@
     <groupId>supercom</groupId>
     <artifactId>kafka</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <dependencies>
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>0.9.0.0</version>
-        </dependency>
+
+    <dependency>
+    	<groupId>org.apache.kafka</groupId>
+    	<artifactId>kafka-clients</artifactId>
+    	<version>0.10.0.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.kafka</groupId>
+    	<artifactId>hadoop-producer</artifactId>
+    	<version>0.8.0</version>
+    </dependency>
     </dependencies>
 
     <build>
