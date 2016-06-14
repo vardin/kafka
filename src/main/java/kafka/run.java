@@ -11,11 +11,13 @@ public class run {
         if (args.length < 1) {
             throw new IllegalArgumentException("Must have either 'producer' or 'consumer' as argument");
         }
-        switch (args[0]) {
-            case "producer":
+        int n= Integer.parseInt(args[0]);
+       
+        switch (n) {
+            case 1:
             	kafka_application.main(args);
                 break;
-            case "consumer":
+            case 2:
                 kafka_consumer.main(args);
                 break;
             default:
